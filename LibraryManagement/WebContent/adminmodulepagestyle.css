@@ -1,0 +1,11 @@
+ .body
+            {
+                margin-top: 200px;
+                text-align: center;    
+            }
+a:hover{
+    color:#EEF0F9;
+}
+a{
+    text-decoration-line: none;
+}

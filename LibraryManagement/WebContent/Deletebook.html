@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Add book page</title>
+        <link rel="stylesheet" href="Deletebookstyle.css">
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="Deletebook.js"></script>
+    </head>
+    <body background="image.jpg" class="body">
+        <br><br><br><br><br><br><br><br><br>
+        <center>
+        <div class="div">
+            <h1>Delete book</h1>
+        <form name="myform" action="Deletebook" method="post">
+            <input type="text" name="isbn" placeholder="ISBN No."><span><font color="red">*</font></span><br>
+            
+            <a href="adminmodulepage.html" class="button">Back</a>
+            <input type="submit" name="submit" onclick="return validateform()">
+        </form>
+        </div>
+        </center>
+        <div class="copyright">
+        <footer>
+        <small>&copy; Copyright 2019;All the rights are Reserved</small>
+</footer></div>
+    </body>
+</html>

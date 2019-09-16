@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Add book page</title>
+        <link rel="stylesheet" href="addbookstyle.css">
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="addbook.js"></script>
+    </head>
+    <body background="image.jpg" class="body">
+        <br><br><br><br><br><br><br><br><br>
+        <center>
+        <div class="div">
+            <h1>Add Book Details</h1>
+        <form name="myform" action="AddBookDetails" method="post">
+            <input type="number" name="isbn" placeholder="ISBN No."><span><font color="red">*</font></span><br>
+            
+            <input type="text" name="bookname" placeholder="BookName"><span><font color="red">*</font></span><br>
+            <input type="text" name="authorname" placeholder="Author name"><span><font color="red">*</font></span><br>
+            <input type="number" name="numberofcopy" placeholder="No of copies"><span><font color="red">*</font></span><br>
+            <a href="adminmodulepage.html" class="button">Back</a>
+            <input type="submit" name="submit" onclick="return validateform()">
+        </form>
+        </div>
+        </center>
+        <div class="copyright">
+        <footer>
+        <small>&copy; Copyright 2019;All the rights are Reserved</small>
+</footer></div>
+    </body>
+</html>

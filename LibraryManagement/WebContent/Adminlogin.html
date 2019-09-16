@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Admin Login Page</title>
+        <link rel="stylesheet" href="Adminloginstyle.css">
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="Adminlogin.js"></script>
+    </head>
+    
+    
+    <body class="body" bgcolor="#C8C9CD">
+        
+        <marquee>Welcome to Admin Portal</marquee>
+        <div class="div">
+        <h1><strong>Login</strong></h1>
+        <form name="myform" id="myform"  action="Adminloginvalid" method="post">
+        <input type="text" placeholder="USERNAME" id="username" name="username" autofocus autocomplete="off"><span><font color="red">*</font></span><br>
+        <input type="password" placeholder="PASSWORD" name="password"><span><font color="red">*</font></span><br>
+        <input type="reset" value="Clear">
+        <input type="submit" value="submit" onClick="return validateform();"><br>
+
+        <a href="index.html">Home</a>
+    
+        <br>
+        </form>
+        </div>
+        <div class="copyright">
+        <center><br><br><footer>
+        <small>&copy; Copyright 2019;All the rights are Reserved</small>
+</footer></center></div>
+
+    </body>
+</html>

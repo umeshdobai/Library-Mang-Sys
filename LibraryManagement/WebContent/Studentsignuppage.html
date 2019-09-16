@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="Studentsignupstyle.css">
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="Studentsignuppage.js"></script>
+    </head>
+    <body class="body" bgcolor="#C8C9CD">
+         <marquee>Welcome to Student Portal</marquee>
+        <center>
+        <div class="div">
+            <h1>Sign up</h1>
+        <form name="myform" action="InsertData" method="post">
+            <input type="text" name="name" placeholder="NAME"><span><font color="red">*</font><br>
+           <input type="text" name="username" placeholder="USERNAME"><span><font color="red">*</font><br>
+           <input type="password" name="password" placeholder="CREATE PASSWORD"><span><font color="red">*</font><br>
+           <input type="password" name="cnfpassword" placeholder="CONFIRM PASSWORD"><span><font color="red">*</font><br>
+           <input type="reset" value="Clear">
+           <input type="submit" name="submit" onclick="return validateform();" ><br>
+           <a href="Studentlogin.html">Login</a>
+        </form>
+        </div>
+        </center>
+        <center>
+        <div class="copyright">
+        <footer>
+        <small>&copy; Copyright 2019;All the rights are Reserved</small>
+</footer></div></center>
+    </body>
+</html>
